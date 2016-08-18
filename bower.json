@@ -1,0 +1,8 @@
+{
+  "name": "enterprise-single-sign-on-in-geoserver",
+  "version": "0.0.0",
+  "dependencies": {
+    "reveal.js": "~3.2.0",
+    "highlightjs": "~9.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Enterprise Single Sign-On in GeoServer",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "geobeyond",
+    "githubRepository": "presentations"
+  }
+}
