@@ -207,6 +207,11 @@ $geobeyond_sig:                        "img/logo/logo_300.png";
 $geobeyond_sig_width:                  image-width($geobeyond_sig);
 $geobeyond_sig_height:                 image-height($geobeyond_sig);
 $geobeyond_sig_margin:                 25px;
+// FOSS4G Footer
+$foss4g_foot:                          "img/logo/foss4g-logo_07.png";
+$foss4g_foot_width:                    image-width($foss4g_foot);
+$foss4g_foot_height:                   image-height($foss4g_foot);
+$foss4g_foot_margin:                   25px;
 /******************************************************************************/
 /******************************************************************************/
 /* General Styles                                                             */
@@ -380,6 +385,17 @@ html.end body {
     opacity: 0.9;
     @include transition(opacity 300ms);
     &:hover { opacity: 1; }
-    transform: translate(-30%, +30%) scale(0.500);
+    transform: translate(-35%, +40%) scale(0.430);
   }
 /******************************************************************************/
+  #foss4g-footer {
+    display: block; width: $foss4g_foot_width;  height: $foss4g_foot_height;
+    position: fixed; left: $foss4g_foot_margin; bottom: $foss4g_foot_margin;
+    background: url($foss4g_foot);
+    z-index: 25;
+    @include hide-text;
+    opacity: 0.9;
+    @include transition(opacity 300ms);
+    &:hover { opacity: 1; }
+    transform: translate(-30%, +46%) scale(0.150);
+  }

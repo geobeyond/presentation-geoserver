@@ -476,7 +476,7 @@ body {
 /******************************************************************************/
 /* General Styles                                                             */
 /******************************************************************************/
-/* line 214, source/theme.scss */
+/* line 219, source/theme.scss */
 body {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ViZWJlYiIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -486,7 +486,7 @@ body {
   text-align: left;
 }
 
-/* line 218, source/theme.scss */
+/* line 223, source/theme.scss */
 .reveal, .reveal p {
   font-family: "PT Sans", sans-serif;
   font-size: 34px;
@@ -496,14 +496,14 @@ body {
   letter-spacing: -0.02em;
 }
 
-/* line 227, source/theme.scss */
+/* line 232, source/theme.scss */
 ::selection {
   color: white;
   background: #82B919;
   text-shadow: none;
 }
 
-/* line 230, source/theme.scss */
+/* line 235, source/theme.scss */
 .reveal code {
   font-family: "Ubuntu Mono";
   font-size: 24px;
@@ -524,7 +524,7 @@ body {
   box-shadow: #312D2E 0 0 5px;
 }
 
-/* line 244, source/theme.scss */
+/* line 249, source/theme.scss */
 .reveal pre {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -532,7 +532,7 @@ body {
   width: 976px;
 }
 
-/* line 248, source/theme.scss */
+/* line 253, source/theme.scss */
 .reveal pre code {
   display: block;
   padding: 8px;
@@ -543,7 +543,7 @@ body {
 /******************************************************************************/
 /* Headings                                                                   */
 /******************************************************************************/
-/* line 257, source/theme.scss */
+/* line 262, source/theme.scss */
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
   font-family: "Archivo Narrow", sans-serif;
   font-weight: 700;
@@ -554,34 +554,34 @@ body {
   text-transform: none;
 }
 
-/* line 266, source/theme.scss */
+/* line 271, source/theme.scss */
 .reveal h1 {
   text-shadow: 0 1px 0 #e0e0e0, 0 2px 0 #dbdbdb, 0 3px 0 #d6d6d6, 0 4px 0 #d1d1d1, 0 5px 0 #cccccc, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 2px 3px rgba(0, 0, 0, 0.3), 0 6px 5px rgba(0, 0, 0, 0.2), 0 6px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
   line-height: 1;
 }
 
-/* line 267, source/theme.scss */
+/* line 272, source/theme.scss */
 .reveal h1 {
   font-size: 109px;
 }
 
-/* line 268, source/theme.scss */
+/* line 273, source/theme.scss */
 .reveal h2 {
   font-size: 79px;
   line-height: 1;
 }
 
-/* line 269, source/theme.scss */
+/* line 274, source/theme.scss */
 .reveal h3 {
   font-size: 64px;
 }
 
-/* line 270, source/theme.scss */
+/* line 275, source/theme.scss */
 .reveal h4 {
   font-size: 49px;
 }
 
-/* line 271, source/theme.scss */
+/* line 276, source/theme.scss */
 .reveal h5 {
   font-size: 34px;
 }
@@ -590,13 +590,13 @@ body {
 /******************************************************************************/
 /* Links                                                                      */
 /******************************************************************************/
-/* line 276, source/theme.scss */
+/* line 281, source/theme.scss */
 .reveal a:not(.image) {
   color: #467A1C;
   text-decoration: none;
 }
 
-/* line 280, source/theme.scss */
+/* line 285, source/theme.scss */
 .reveal a:not(.image):hover {
   color: #0878BE;
 }
@@ -605,35 +605,35 @@ body {
 /******************************************************************************/
 /* Navigation Controls                                                        */
 /******************************************************************************/
-/* line 288, source/theme.scss */
+/* line 293, source/theme.scss */
 .reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
   border-right-color: #0D5B90;
 }
-/* line 291, source/theme.scss */
+/* line 296, source/theme.scss */
 .reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
   border-left-color: #0D5B90;
 }
-/* line 294, source/theme.scss */
+/* line 299, source/theme.scss */
 .reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
   border-bottom-color: #0D5B90;
 }
-/* line 297, source/theme.scss */
+/* line 302, source/theme.scss */
 .reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
   border-top-color: #0D5B90;
 }
-/* line 300, source/theme.scss */
+/* line 305, source/theme.scss */
 .reveal .controls div.navigate-left.enabled:hover {
   border-right-color: #467A1C;
 }
-/* line 303, source/theme.scss */
+/* line 308, source/theme.scss */
 .reveal .controls div.navigate-right.enabled:hover {
   border-left-color: #467A1C;
 }
-/* line 306, source/theme.scss */
+/* line 311, source/theme.scss */
 .reveal .controls div.navigate-up.enabled:hover {
   border-bottom-color: #467A1C;
 }
-/* line 309, source/theme.scss */
+/* line 314, source/theme.scss */
 .reveal .controls div.navigate-down.enabled:hover {
   border-top-color: #467A1C;
 }
@@ -642,14 +642,14 @@ body {
 /******************************************************************************/
 /* Progress Bar                                                               */
 /******************************************************************************/
-/* line 317, source/theme.scss */
+/* line 322, source/theme.scss */
 .reveal .progress {
   top: 0;
   height: 5px;
   background: #009EE1;
 }
 
-/* line 322, source/theme.scss */
+/* line 327, source/theme.scss */
 .reveal .progress span {
   background: #82B919;
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -662,7 +662,7 @@ body {
 /******************************************************************************/
 /* Slides                                                                     */
 /******************************************************************************/
-/* line 330, source/theme.scss */
+/* line 335, source/theme.scss */
 html.end body {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzhlOWVhOCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -670,13 +670,13 @@ html.end body {
   background-image: -webkit-radial-gradient(#ffffff, #8e9ea8);
   background-image: radial-gradient(#ffffff, #8e9ea8);
 }
-/* line 332, source/theme.scss */
+/* line 337, source/theme.scss */
 html.end body .reveal .progress,
 html.end body .reveal .controls {
   opacity: 0;
 }
 
-/* line 336, source/theme.scss */
+/* line 341, source/theme.scss */
 .reveal p {
   margin: 20px 0;
   line-height: 0.8;
@@ -686,7 +686,7 @@ html.end body .reveal .controls {
 /******************************************************************************/
 /* IMAGES
 /******************************************************************************/
-/* line 345, source/theme.scss */
+/* line 350, source/theme.scss */
 .reveal section img {
   margin: 0px 0px;
   background: rgba(255, 255, 255, 0.12);
@@ -694,20 +694,20 @@ html.end body .reveal .controls {
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
 }
 
-/* line 353, source/theme.scss */
+/* line 358, source/theme.scss */
 .reveal section img.plain {
   border: 0;
   box-shadow: none;
 }
 
-/* line 358, source/theme.scss */
+/* line 363, source/theme.scss */
 .reveal a img {
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
   transition: all .15s linear;
 }
 
-/* line 364, source/theme.scss */
+/* line 369, source/theme.scss */
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
   border-color: #13DAEC;
@@ -718,7 +718,7 @@ html.end body .reveal .controls {
 /******************************************************************************/
 /* Signature                                                                  */
 /******************************************************************************/
-/* line 374, source/theme.scss */
+/* line 379, source/theme.scss */
 #geobeyond-signature {
   display: block;
   width: 300px;
@@ -737,11 +737,36 @@ html.end body .reveal .controls {
   -o-transition: opacity 300ms;
   -webkit-transition: opacity 300ms;
   transition: opacity 300ms;
-  transform: translate(-30%, 30%) scale(0.5);
+  transform: translate(-35%, 40%) scale(0.43);
 }
-/* line 382, source/theme.scss */
+/* line 387, source/theme.scss */
 #geobeyond-signature:hover {
   opacity: 1;
 }
 
 /******************************************************************************/
+/* line 391, source/theme.scss */
+#foss4g-footer {
+  display: block;
+  width: 1000px;
+  height: 300px;
+  position: fixed;
+  left: 25px;
+  bottom: 25px;
+  background: url("img/logo/foss4g-logo_07.png");
+  z-index: 25;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  text-transform: capitalize;
+  opacity: 0.9;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
+  transform: translate(-30%, 46%) scale(0.15);
+}
+/* line 399, source/theme.scss */
+#foss4g-footer:hover {
+  opacity: 1;
+}
