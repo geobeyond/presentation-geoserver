@@ -726,7 +726,7 @@ html.end body .reveal .controls {
   position: fixed;
   left: 25px;
   bottom: 25px;
-  background: url("css/img/logo/logo_300.png");
+  background: url("img/logo/logo_300.png");
   z-index: 25;
   text-indent: -119988px;
   overflow: hidden;
@@ -737,6 +737,7 @@ html.end body .reveal .controls {
   -o-transition: opacity 300ms;
   -webkit-transition: opacity 300ms;
   transition: opacity 300ms;
+  transform: translate(-30%, 30%) scale(0.5);
 }
 /* line 382, source/theme.scss */
 #geobeyond-signature:hover {

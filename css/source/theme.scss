@@ -203,7 +203,7 @@ $h1_text_shadow:                  0  1px  0   darken(white, 12%),
                                   0 20px 20px transparentize(black, 0.85);
 
 // GEOBEYOND Signature
-$geobeyond_sig:                        "css/img/logo/logo_300.png";
+$geobeyond_sig:                        "img/logo/logo_300.png";
 $geobeyond_sig_width:                  image-width($geobeyond_sig);
 $geobeyond_sig_height:                 image-height($geobeyond_sig);
 $geobeyond_sig_margin:                 25px;
@@ -380,5 +380,6 @@ html.end body {
     opacity: 0.9;
     @include transition(opacity 300ms);
     &:hover { opacity: 1; }
+    transform: translate(-30%, +30%) scale(0.500);
   }
 /******************************************************************************/
