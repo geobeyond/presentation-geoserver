@@ -1,1 +1,16 @@
-["index.md"]
+[
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-background": "css/img/bg.png"
+        }
+    },
+    [
+        {
+            "filename": "who-we-are.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        }
+    ]
+]
