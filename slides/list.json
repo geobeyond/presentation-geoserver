@@ -12,5 +12,19 @@
                 "data-background": "css/img/bg.png"
             }
         }
+    ],
+    [
+        {
+            "filename": "geoserver-security-model.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        },
+        {
+            "filename": "geoserver-security-providers.md",
+            "attr": {
+                "data-background": "css/img/bg.png"
+            }
+        }
     ]
 ]
