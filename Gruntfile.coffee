@@ -90,12 +90,14 @@ module.exports = (grunt) ->
                         'js/**'
                         'css/*.css'
                         'resources/**'
+                        'css/img/**'
+                        'css/fonts/**'
                     ]
-                    dest: 'dist/'
+                    dest: 'dist/foss4g2016'
                 },{
                     expand: true
                     src: ['index.html']
-                    dest: 'dist/'
+                    dest: 'dist/foss4g2016/'
                     filter: 'isFile'
                 }]
 
